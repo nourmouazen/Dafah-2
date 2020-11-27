@@ -42,6 +42,7 @@ class AddItems extends React.Component {
         onChange={this.onChange.bind(this)}
         value={this.state.name}>
      </input>
+     <br></br>
     <input
         id="category"
         name="category"
@@ -50,6 +51,7 @@ class AddItems extends React.Component {
         onChange={this.onChange.bind(this)}
         value={this.state.category}>
      </input>
+     <br></br>
     <input
         id="description"
         name="description"
@@ -58,6 +60,7 @@ class AddItems extends React.Component {
         onChange={this.onChange.bind(this)}
         value={this.state.description}>
       </input>
+      <br></br>
     {/* <image id="image" onChange={this.onChange.bind(this)} value={this.state.image}>Image</image> */}
     <button
       id="addItem"
